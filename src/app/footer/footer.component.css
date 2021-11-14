@@ -1,0 +1,14 @@
+h3 {
+    text-align: center;
+}
+#name,#contact {
+    text-align: center;
+}
+a {
+    margin-left: 42vw;
+    text-decoration: none;
+}
+footer {
+    background-color: #000000;
+    color: #ffffff;
+}

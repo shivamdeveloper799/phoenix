@@ -1,0 +1,15 @@
+h2 {
+    text-align: center;
+    font-size: 5em;
+}
+.immunity {
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    margin-left: 9vw;
+}
+.card {
+    margin-top: 4vh;
+}
+img {
+    height: 30vh;
+}

@@ -1,0 +1,21 @@
+#contact {
+    font-size: 3em;
+    text-align: center;
+    margin-left: 5vh;
+}
+#detail {
+    display: grid;
+    grid-gap: 7vw;
+    grid-template-columns: repeat(3,2fr);
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+#contact-detail {
+    background-color: greenyellow;
+}
+
+@media (max-width: 700px) {
+    #detail {
+        grid-template-columns: 1fr;
+    }
+}

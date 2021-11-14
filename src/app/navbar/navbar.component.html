@@ -1,0 +1,64 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" routerLink='profile'>Company Profile</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="list">
+              <li><a class="dropdown-item" href="#">Medicines</a></li>
+              <li><a class="dropdown-item" href="#">Syrups</a></li>
+              <li><a class="dropdown-item" href="#">Ayurvedas Products</a>
+              </li>
+            </ul>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Products
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="list">
+              <li><a class="dropdown-item" href="#" routerLink='capsules'>Capsules</a></li>
+              <li><a class="dropdown-item" href="#" routerLink='#'>ointments</a></li>
+              <li><a class="dropdown-item" href="#" routerLink='syrups'>Syrups</a></li>
+              <li><a class="dropdown-item" href="#" routerLink='tablets'>Tablets</a></li>
+              <li><a class="dropdown-item" href="#" routerLink='#'>Drops</a></li>
+              <li><a class="dropdown-item" href="#" routerLink='injections'>Injections</a></li>
+              <!-- <li><a class="dropdown-item" href="#">Cosmetics</a></li> -->
+              <!-- <li><a class="dropdown-item" href="#">Ayurvedics Capsules</a></li> -->
+              <li><a class="dropdown-item" href="#" routerLink='#'>Hair oils</a></li>
+              <li><a class="dropdown-item" href="#" routerLink='immunity-products'>Immunity Boosters</a></li>
+              <li><a class="dropdown-item" href="#" routerLink='#'>Hands Sanitizers</a></li>
+              <li><a class="dropdown-item" href="#" routerLink='#'>PPE Kits</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Media</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#" routerLink = "contact">Contact Us</a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contact Us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="list">
+              <li><a class="dropdown-item" href="#" routerLink='feedback'>Feedback & Queries</a></li>
+              <li><a class="dropdown-item" href="#" routerLink='contact'>Contact Details</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <router-outlet></router-outlet>

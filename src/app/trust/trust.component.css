@@ -1,0 +1,11 @@
+#trust {
+    display: grid;
+    grid-gap: 10vw;
+    grid-template-areas: 
+    'image detail';
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+#detail {
+    width: 80%;
+}

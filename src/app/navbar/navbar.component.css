@@ -1,0 +1,15 @@
+.nav-item {
+    margin-left: 5vw;
+}
+#list {
+    background-color: greenyellow;
+}
+.navbar-nav {
+    margin-left: 12vw;
+}
+
+@media (max-width: 500px) {
+    .navbar{
+        
+    }
+}

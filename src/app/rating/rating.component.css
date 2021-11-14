@@ -1,0 +1,26 @@
+#rating {
+    background-color: rgba(128, 128, 128, 0.76);
+    display: grid;
+    grid-gap: 5vw;
+    grid-template-columns: repeat(3,2fr);
+    padding-left: 4vw;
+}
+#cities, #products,#doctors {
+    margin-top: 5vh;
+}
+#cities>h3{
+    margin-left: 4.5vw;
+}
+#products>h3{
+    margin-left: 3.1vw;
+}
+#doctors>h3{
+    margin-left: 10vw;
+}
+#cities>h3, #products>h3,#doctors>h3 {
+    font-size: 2em;
+    color: green;
+}
+#cities>p, #products>p,#doctors>p {
+    font-size: 2em;
+}

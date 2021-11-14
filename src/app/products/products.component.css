@@ -1,0 +1,26 @@
+#product {
+    font-size: 3em;
+    text-align: center;
+}
+#products-cards{
+    display: grid;
+    grid-gap: 2vw;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+img {
+    height: 30vh;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+@media (max-width: 700px) {
+    #products-cards {
+        grid-template-columns: 1fr;
+        margin-left: 20vw;
+    }
+}

@@ -1,0 +1,14 @@
+h2 {
+    text-align: center;
+    font-size: 5em;
+}
+#capsules {
+    display: grid;
+    grid-gap: 5vw;
+    grid-template-columns: repeat(3,2fr);
+    margin-top: 3vh;
+    margin-left: 5vw;
+}
+img {
+    height: 30vh;
+}
